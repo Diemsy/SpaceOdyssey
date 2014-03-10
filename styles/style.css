@@ -1,10 +1,15 @@
 @font-face{
-    font-family: Track;
-    src: local(Track), url('fonts/Track.ttf') format('opentype');
+  font-family: Track;
+  src: local(Track), url('fonts/Track.ttf') format('opentype');
 }
 
 body{
- background-color: #dbdbdb;
+  background-color: #dbdbdb;
+  font-family: Track;
+  color: black;
+  text-decoration: none;
+  width: 1020px;
+  margin: auto;
 }
 
 a{
@@ -18,22 +23,28 @@ li{
 }
 
 #header{
-  font-family: Track;
-  color: black;
-  text-decoration: none;
+
 }
 
 #header--title{
-  font-size: 24pt;
+  font-size: 1.6em;
+  width: 960px;
+  margin: auto;
 }
 
 #header--subtitle{
-  font-size: 1.38em;
-  margin-top: -2.4em;
+  font-size: 1.1em;
+  margin-top: -2.3em;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-img{
-  display: inline;
+#header--logo{
+  display: inline-block;
+  margin: auto
 }
 
-ul{display: inline;}
+ul{
+  display: inline-block;
+}
