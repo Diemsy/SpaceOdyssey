@@ -49,48 +49,66 @@ vertical-align: bottom;
   width: 960px;
   margin-left: 30px;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 
 
 #header--nav__left{
   display: inline-block;
-  width: 320px;
+  max-width: 387px;
   margin-left: 30px;
+  font-size: 1.1em;
 }
 
 #header--logo{
   display: inline-block;
-  width: 185px;
+  width: 186px;
   position: absolute;
   left: 100%;
+  top: 90px;
   margin-left: -603px;
   vertical-align: bottom;
 }
 
 #header--nav__right{
   display: inline-block;
-  width: 320px;
-  margin-right: 30px;
+  max-width: 387px;
+  position: absolute;
+  right: 0px;
+  font-size: 1.1em;
 }
 
 #content{
   width: 960px;
   height: 670px;
   display: block;
-  margin: 60px auto;
+  margin: auto;
   background-image: url(http://i.imgur.com/qeaWvMu.png);
   color: white;
-}
+  margin-top: 30px;
+} 
 
 #content--text p{
-  text-transform: uppercase;
+  padding-left: 30px;
   font-size: 1.3em;
-  margin-top: 120px;
+  padding-top: 120px;
+  margin: 0;
+}
+
+#content--subtext p{
+  padding-left: 30px;
+  width: 650px;
+  margin: 0;
+}
+
+#content--links{
+  margin: auto;
+  margin-top: 200px;
+  width: 740px;
 }
 
 #content--links__history{
   width: 220px;
-  margin-left: 80px;
   margin-right: 20px;
   display: inline-block;
 } 
@@ -103,7 +121,40 @@ vertical-align: bottom;
 
 #content--links__equipment{
   width: 220px;
-  margin-right: 80px;
   margin-left: 20px;
   display: inline-block;
 } 
+
+#footer{
+  height: 150px;
+  margin: 0;
+}
+
+#footer--social{
+  height: 75px;
+  padding-top: 25px;
+  text-align: right;
+  margin-right: 17.5px;
+}
+
+#footer--social p{
+  display: inline-block;
+}
+
+#footer--social img{
+  display: inline-block;
+  margin: 0 12.5px;
+}
+
+#footer--copyright{
+  height: 40px;
+  border: solid #ccc 1px;
+  margin: 0;
+  text-align: center;
+  width: 960px;
+  margin: auto;
+}
+
+#footer-copyright p{
+  text-align: center;
+}
