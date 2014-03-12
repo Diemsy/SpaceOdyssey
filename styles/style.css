@@ -1,6 +1,6 @@
 @font-face{
   font-family: Track;
-  src: local(Track), url('fonts/Track.ttf') format('opentype');
+  src: local(Track), url('../fonts/Track.ttf') format('opentype');
 }
 
 html{
