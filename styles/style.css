@@ -87,6 +87,9 @@ width: 93.34%;
   margin: auto;
   background-image: url(http://i.imgur.com/qeaWvMu.png);
   background-attachment: fixed;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
   color: white;
   margin-top: 30px;
 } 
