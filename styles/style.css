@@ -30,7 +30,7 @@ li{
   text-decoration: none;
 }
 
-#header{
+.header{
 position: relative;
 display: inline-block;
 vertical-align: bottom;
@@ -40,13 +40,13 @@ padding-right: 3.32%;
 width: 93.34%;
 }
 
-#header--title{
+.header--title{
   font-size: 1.6em;
   width: 100%;
   display: block;
 }
 
-#header--subtitle{
+.header--subtitle{
   font-size: 1.1em;
   margin-top: -2.3em;
   width: 960px;
@@ -55,13 +55,13 @@ width: 93.34%;
 }
 
 
-#header--nav__left{
+.header--nav__left{
   display: inline-block;
   max-width: 387px;
   font-size: 1.1em;
 }
 
-#header--logo{
+.header--logo{
   display: inline-block;
   width: 186px;
   position: absolute;
@@ -71,7 +71,7 @@ width: 93.34%;
   vertical-align: bottom;
 }
 
-#header--nav__right{
+.header--nav__right{
   display: inline-block;
   position: absolute;
   right: 0%;
@@ -80,7 +80,7 @@ width: 93.34%;
   font-size: 1.1em;
 }
 
-#content{
+.content{
   width: 93.75%;
   height: 40em;
   display: block;
@@ -89,25 +89,25 @@ width: 93.34%;
   background-attachment: fixed;
   background-color: #000;
   background-repeat: no-repeat;
-  background-position: 100% 0%;
+  background-position: 100% -25%;
   color: white;
   margin-top: 30px;
 } 
 
-#content--text p{
+.content--text p{
   padding-left: 40px;
   font-size: 1.3em;
   padding-top: 120px;
   margin: 0;
 }
 
-#content--subtext p{
+.content--subtext p{
   padding-left: 40px;
   width: 650px;
   margin: 0;
 }
 
-#grid-selector{
+.grid-selector{
   display: table;
   table-layout: fixed;
   width: 100%;
@@ -128,38 +128,38 @@ width: 93.34%;
   border-radius: .5em;
 }
 
-#footer{
+.footer{
   height: 150px;
   margin: 0;
 }
 
-#footer--social{
+.footer--social{
   height: 75px;
   padding-top: 25px;
   text-align: right;
   margin-right: 17.5px;
 }
 
-#follow{
+.follow{
   display: inline-block;
   height: 20px;
 }
 
-#follow p{
+.follow p{
   margin: 0px;
 }
 
-#footer--social{
+.footer--social{
   margin-right: 3.33%;
 }
 
-#footer--social img{
+.footer--social img{
   display: inline-block;
   margin: 0;
   margin-left: 25px;
 }
 
-#footer--copyright{
+.footer--copyright{
   height: 40px;
   border: solid #ccc 1px;
   margin: 0;
@@ -168,6 +168,6 @@ width: 93.34%;
   margin: auto;
 }
 
-#footer-copyright p{
+.footer-copyright p{
   text-align: center;
 }
