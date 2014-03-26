@@ -24,7 +24,7 @@ gulp.task('images', function(){
 
 gulp.task('pages', function(){
   return gulp.src('pages/*.jade')
-    .pipe(jade(){pretty:true})
+    .pipe(jade())
     .pipe(gulp.dest('dist'))
 })
 
