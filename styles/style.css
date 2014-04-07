@@ -107,6 +107,13 @@ width: 93.34%;
   margin: 0;
 }
 
+.content--subtext-secondary p{
+  padding-left: 40px;
+  width: 650px;
+  margin: 0;
+  font-family: "PT Sans";
+}
+
 .grid-selector{
   display: table;
   table-layout: fixed;
