@@ -55,6 +55,7 @@ width: 93.34%;
 .header--title a:hover{
   text-decoration: none;
   color: black;
+  border: none;
 }
 
 .header--subtitle{
