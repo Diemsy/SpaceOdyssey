@@ -27,13 +27,21 @@ a:hover{
   border-bottom: 2px solid red;
 }
 
-ul{
+.nav-left, .nav-right{
   padding: 0;
 }
 
-li{
+.nav{
   display: inline-block;
   text-decoration: none;
+}
+
+.nav:before{
+  content: '| ';
+}
+
+.nav:first-child:before{
+  content: none;
 }
 
 .header{
@@ -104,7 +112,7 @@ width: 93.34%;
   background-position: 100% -25%;
   color: white;
   margin-top: 30px;
-} 
+}
 
 .content--text p{
   padding-left: 40px;
