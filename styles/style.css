@@ -102,7 +102,7 @@ width: 93.34%;
 
 .content{
   width: 93.75%;
-  height: 40em;
+  /*height: 40em;*/
   display: block;
   margin: auto;
   background-image: url(http://i.imgur.com/qeaWvMu.png);
@@ -128,10 +128,45 @@ width: 93.34%;
 }
 
 .content--subtext-secondary p{
-  padding-left: 40px;
-  width: 650px;
-  margin: 0;
+  /*padding-left: 40px;*/
+  width: 90%;
+  margin: auto;
   font-family: "PT Sans", Arial;
+}
+
+.content--subtext-tertiary{
+  width: 90%;
+  margin: auto;
+  font-family: "PT Sans", Arial;
+  display:table;
+}
+
+.subtext-tertiary{
+  width:45%;
+  display:table-cell;
+  margin:0 1em;
+  color: black;
+}
+
+.subtext-tertiary p{
+  width: 90%;
+  background-color: #EEE;
+  border: solid 1px black;
+  padding : 0 .5em;
+}
+
+.subtext-form{
+  background-color:#EEE;
+  border: solid 1px black;
+}
+
+.subtext-form input{
+  width: 65%;
+  margin: 1em auto;
+}
+
+.subtext-form label{
+  text-align: center;
 }
 
 .grid-selector{
@@ -153,6 +188,7 @@ width: 93.34%;
   height: 13.75em;
   background-color: rgba(45, 62, 82, .75);
   border-radius: .5em;
+  margin-bottom : 3em;
 }
 
 .footer{
