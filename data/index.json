@@ -1,0 +1,32 @@
+{
+  "i18n" : {
+    "learnMore" : "En savoir plus",
+    "conference" : "Conférence",
+    "by" : "par",
+    "the" : "le",
+    "at" : "à"
+    },
+  "homepage" : {
+    "tiles" : [
+      {
+        "title" : "Notre histoire",
+        "text" : "Découvrez qui nous sommes et quelles sont les valeurs du groupe Space Odyssey",
+        "picture" : "images/picto1.png",
+        "id" : "history"
+      },
+      {
+        "title" : "Nos partenaires",
+        "text" : "Retrouvez nos compagnons de voyage et partenaires commerciaux",
+        "picture" : "images/picto2.png",
+        "id" : "partners"
+      },
+      {
+        "title" : "Nos engagements",
+        "text" : "Découvrez nos engagements vis-à-vis de la nature et de vous-même",
+        "picture" : "images/picto3.png",
+        "id" : "equipment"
+      }
+    ],
+    "showcase" : "À la conquête de l’espace <br/><span>Chaque jour nous envoyons des millions d’humains dans l’espace <br />NOTRE MISSION : créer pour l'homme les horizons de demain et l'accompagner dans sa propre aventure interstellaire</span>"
+  }
+}

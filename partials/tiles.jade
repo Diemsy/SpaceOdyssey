@@ -1,0 +1,13 @@
+mixin tiles(list)
+  .Tiles
+    .Grid
+      -each item in list
+        .Tile.Grid-col.Grid-col--4
+          h3.Tile-title
+            | #{item.title}
+          .Tile-picture
+            img(src="#{item.picture}")
+          p.Tile-text
+            | #{item.text}
+          button.Button.js-ToggleTile(data-tile="#{item.id}")
+            | #{i18n.learnMore}

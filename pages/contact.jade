@@ -1,14 +1,27 @@
-extends ./layouts/main.jade
-append title
-  title
-    |Space Odyssey - Nous contacter
-append contenu
-  .content
-    .content--text
-      p
-        |Nous contacter
-      br
-    .content--subtext-secondary
-      p.
-        Cupcake ipsum dolor sit amet. Caramels tiramisu carrot cake cotton candy bear claw candy canes. Oat cake chupa chups jujubes gummies. Danish bear claw bonbon. Donut icing pastry pastry apple pie sugar plum ice cream. Jujubes tootsie roll jelly beans oat cake liquorice carrot cake pudding croissant. Tiramisu biscuit sweet roll cupcake pastry. Sweet chocolate bar candy canes muffin. Lollipop ice cream candy canes chocolate chupa chups jelly sesame snaps dessert cotton candy. Powder gingerbread lollipop lemon drops chocolate cake tiramisu icing. Oat cake bear claw jelly-o toffee. Dragée lollipop toffee pie. Toffee tootsie roll icing.
-  
+extends ../layouts/main.jade
+
+append showcase
+  +Showcase(homepage.showcase)
+
+append content
+  .Grid
+    .Grid-col.Grid-col--8.Introduction
+      h2.Introduction-title
+        span Nous contacter
+      ol.Introduction-list
+        li.Introduction-item
+          p.Introduction-text
+            |Vous avez besoin de nous contacter ? Vous rencontrez des difficultés pour accéder à nos rubriques ? N’hésitez pas à nous poser des questions à propos de Space Odyssey. Nous avons une page FAQ à votre disposition pour toutes les questions principales. Vous n’avez toujours pas trouvé votre réponse ? Vous pouvez contacter nos équipes par téléphone au +33 1 44 05 16 32, 7j/7, 24h/24.
+    .Grid-col.Grid-col--4
+      h2.Introduction-title
+         |Mailbox
+      form(action="#" method="get").Contact-form#formu
+        input(type="text")#prenom
+        br
+        input(type="text")#nom
+        br
+        input(type="text")#mail
+        br
+        textarea(rows="5" cols="50")#commentaire
+        br
+        input(type="submit" name="Envoyer" value="Envoyer" class="Button" id="button")
